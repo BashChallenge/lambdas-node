@@ -1,0 +1,28 @@
+{
+  "name": "lambdas-node",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "subpkg install",
+    "start": "subpkg start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BashChallenge/lambdas-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BashChallenge/lambdas-node/issues"
+  },
+  "homepage": "https://github.com/BashChallenge/lambdas-node#readme",
+  "subPackages": [
+    "lambda1",
+    "lambda2"
+  ],
+  "devDependencies": {
+    "subpackage": "^1.1.0"
+  }
+}
